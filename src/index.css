@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html, body {
+  height: 100%;
+  background: #080E1A;
+  color: white;
+  font-family: 'Inter', -apple-system, sans-serif;
+  overscroll-behavior: none;
+}
+
+#root { min-height: 100vh; }
+input, select, textarea { outline: none; }
+::-webkit-scrollbar { width: 0; height: 0; }
